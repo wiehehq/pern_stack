@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# START TIME:   ?
-# END TIME:     10:33 04/03/2020
+# START TIME:   99:99 04/03/2020
+# END TIME:     10:46 04/03/2020
 
 # THE FOUR LINES BELOW SAYING "#############################################", AND THEN "[FROM DIGITALOCEAN] --- ", AND THEN TWO EMPTY LINES (WITH NO #), AND THEN A LINE CONSISTING ONLY OF "# ", AND THEN "#############################################" ONCE AGAIN IS MERELY FOR EASIER COPY/PASTING WHILE WORKING ON THIS SCRIPT 
 
@@ -114,6 +114,8 @@ printf "\n\n--------------------------------------\n\n\n"
 
 #############################################
 
+sudo apt install curl
+
 #############################################
 # [TESTING DOCUMENTATION] --->
 
@@ -124,14 +126,7 @@ printf "\n\n--------------------------------------\n\n\n"
 # The version previously recommended version is also depricated (messaging after curling that newer version). Went to Node.js's website and saw their recommendation of what to curl. Commented out DigitalOcean instruction and using the line from Node.js instead. That one worked
 #############################################
 
-sudo apt install curl
-
-#############################################
-# [TESTING DOCUMENTATION] --->
-
-# INSTALL NODEJS
-#############################################
-
+sudo apt install -y curl
 sudo apt-get install -y nodejs
 
 #############################################
@@ -139,6 +134,8 @@ sudo apt-get install -y nodejs
 
 # INSTALL ANY OTHER DEPENDENCIES
 #############################################
+
+# None as of now
 
 #############################################
 
