@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# START TIME:   99:99 04/03/2020
-# END TIME:     10:46 04/03/2020
+# START TIME:   08:31 04/03/2020
+# END TIME:     08:35 04/03/2020
 
 # THE FOUR LINES BELOW SAYING "#############################################", AND THEN "[FROM DIGITALOCEAN] --- ", AND THEN TWO EMPTY LINES (WITH NO #), AND THEN A LINE CONSISTING ONLY OF "# ", AND THEN "#############################################" ONCE AGAIN IS MERELY FOR EASIER COPY/PASTING WHILE WORKING ON THIS SCRIPT 
 
@@ -112,18 +112,6 @@ printf "\n\n--------------------------------------\n\n\n"
 
 # [DEPENDENCY SETUP] --->
 
-#############################################
-
-sudo apt install curl
-
-#############################################
-# [TESTING DOCUMENTATION] --->
-
-# INSTALL CURL
-
-# Deprecation warning is displayed: "Node.js 6.x LTS Boron is no longer actively supported! You will not receive security or critical stability updates for this version. You should migrate to a supported version of Node.js as soon as possible. Use the installation script that corresponds to the version of Node.js you wish to install. e.g. https://deb.nodesource.com/setup_10.x — Node.js 10 LTS "Dubnium" (recommended). https://deb.nodesource.com/setup_12.x — Node.js 12 LTS "Erbium". Please see https://github.com/nodejs/Release for details about which version may be appropriate for you. The NodeSource Node.js distributions repository contains information both about supported versions of Node.js and supported Linux distributions. To learn more about usage, see the repository: https://github.com/nodesource/distributions"
-
-# The version previously recommended version is also depricated (messaging after curling that newer version). Went to Node.js's website and saw their recommendation of what to curl. Commented out DigitalOcean instruction and using the line from Node.js instead. That one worked
 #############################################
 
 sudo apt install -y curl
