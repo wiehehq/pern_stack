@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# START TIME:   ?
+# END TIME:     10:33 04/03/2020
+
 # THE FOUR LINES BELOW SAYING "#############################################", AND THEN "[FROM DIGITALOCEAN] --- ", AND THEN TWO EMPTY LINES (WITH NO #), AND THEN A LINE CONSISTING ONLY OF "# ", AND THEN "#############################################" ONCE AGAIN IS MERELY FOR EASIER COPY/PASTING WHILE WORKING ON THIS SCRIPT 
 
 #############################################
